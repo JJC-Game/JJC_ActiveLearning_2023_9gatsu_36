@@ -28,7 +28,8 @@ public class P1_GachaManager : MonoBehaviour
 
     public void OnClickGachaButton()
     {
-        gachaPickCharacterId = Random.Range(0, DefineParam.CHARA_NUM);
+        // gachaPickCharacterId = Random.Range(0, DefineParam.CHARA_NUM);
+        gachaPickCharacterId = Random.Range(0, 6);
 
         Debug.Log(gachaPickCharacterId.ToString());
 
